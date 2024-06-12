@@ -3,34 +3,78 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>image links</title>
     </head>
     <body>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#menu">Menu</a>
+            <a href=#home>HOME</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#menu">MENU</a>
         </nav>
         <!--Sections-->
         <section id="#home">
-            <h2>Welcome to our homepage</h2>
-            <p>Satisfaction is guaranteed with our vast options of healthy friuts</p>
+            <h2>HOME</h2>
+            <font color="sky blue" size="3" face="Sans-Serif">
+                <h1>Welcome to Our Homepage dedicated to different topics through images!</h1>
+            </font>
+            <a href="https://pixabay.com/images/search/technology/">Technology</a>
+            <a href="https://pixabay.com/images/search/technology/">
+                <img src="Tech.jpg" width="75%" height="400">
+            </a>
         </section>
         <!--Sections-->
         <section id="#gallery">
-            <div>
-                <figure id="fig 1">
-                    <img src="Forest_Spring.webp" alt="Forest view in Spring" height="200" width="300" align="left">
-                </figure>
-                <figure id="fig 2">
-                    <img src="Waterfall.avif" alt=" A beautiful Waterfall" height="200" width="300" align="right">
-                </figure><span>
-                <figure id="fig 4">
-                    <img src="Beach.avif" alt="Serene view of the beach" height="200" width="300" align="right">
-                </figure>
-                <figure id="fig 5">
-                    <img src="Trees_water.avif" alt="A pond in the forest" height="200" width="300" align="left">
-                </figure></span>
-            </div>
+            <h2>GALLERY</h2>
+            <table width="65%">
+                <tr>
+                    <td> 
+                        <a href="https://unsplash.com/s/photos/nature">
+                            <img src="Forest_Spring.webp" alt="Forest view in Spring" height="300" width="450" align="left">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://unsplash.com/s/photos/nature">
+                            <img src="Waterfall.avif" alt=" A beautiful Waterfall" height="300" width="450" align="right">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://unsplash.com/s/photos/nature">
+                            <img src="Beach.avif" alt="Serene view of the beach" height="300" width="450" align="left">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://unsplash.com/s/photos/nature">
+                            <img src="Trees_water.avif" alt="A pond in the forest" height="300" width="450" align="right">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!--Sections-->
+        <section id="#menu">
+            <h2>MENU</h2>
+            <ul>
+                <li class="menu-item">
+                    <a href="https://cheflolaskitchen.com/african-masa-recipe-hausa-masa/">Nigerian Masa</a>
+                    <a href="https://cheflolaskitchen.com/plantain-pancakes-2/">
+                        <img src="Nigerian_masa.png" alt="Nigerian Masa" width="150" height="150">
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://cheflolaskitchen.com/jollof-rice/">Jollof Rice</a>
+                    <a href="https://cheflolaskitchen.com/jollof-rice/">
+                        <img src="Jollof-Rice.jpg" alt="Jollof Rice" width="150" height="150">
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://cheflolaskitchen.com/fufu-recipe-how-to-make-fufu/">West African Fufu</a>
+                    <a href="https://cheflolaskitchen.com/fufu-recipe-how-to-make-fufu/">
+                        <img src="West_african_fufu.jpg" alt="West African Fufu" width="150" height="150">
+                    </a>
+                </li>
+            </ul>
         </section>
     </body>
 </html>
